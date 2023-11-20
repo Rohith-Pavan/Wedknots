@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main.photography-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .photography-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .photography-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .photography-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .photography-item ul {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .photography-item button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .photography-item button:hover {
+    background-color: #e74c3c;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  body{
+    background-image: url(c1.jpg);
+  }
+
+  .photography-item:hover{
+    background-color: rgb(255, 192, 98);
+  }
